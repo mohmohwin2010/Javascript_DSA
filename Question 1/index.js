@@ -9,6 +9,10 @@ function sumNum(num){
         sum = sum + i;
     }
     return sum;
+
+    // return num*(num+1)/2;//this is advance idea. need to understand well.it's run time less take than above code
 }
 console.log(sumNum(5));
 console.log(sumNum(10));
+ console.log(sumNum(15));
+ console.log(sumNum(6));
