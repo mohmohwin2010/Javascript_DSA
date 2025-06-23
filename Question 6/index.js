@@ -21,7 +21,9 @@ function missingNum(nums){
     console.log("sum : " , sum)
     let exptSum = nums.length*(nums.length+1)/2;
 
-    return exptSum - sum;
+    // return exptSum - sum;
+    // return exptSum - nums.reduce((acc, num) => num + acc)//need to know that more
+    return exptSum - nums.reduce((sum, num) => sum + num, 0);
 }
 
 console.log(missingNum([3,0,1]))
