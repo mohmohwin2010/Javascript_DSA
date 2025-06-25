@@ -29,3 +29,8 @@ function sumDigit(num){
 
 }
 console.log(sumDigit(1287))
+// time complexity is log based 10 N. So O(log~10 N).
+// N=1287 => 4 times , log~10 1287 = 3 , 3+1 =4 . so log~10 1287 +1
+// N=54326 => 5 times , log~10 54326 = 4 , 4+1 =5 . so log~10 54326 +1
+// N=1234567 => 7 times , log~10 1234567 = 6 , 6+1 =7 . so log~10 1234567 +1
+// time complexity is O(log~10 N +1). We can remove +1 constant value so time complexity is O(log~10 N).
