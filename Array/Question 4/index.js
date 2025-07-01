@@ -34,3 +34,6 @@ console.log(deep.flat(Infinity)); // [1, 2, 3, 4]
 
 //flat(Infinity), it flattens everything, no matter how deep.
 
+//filter and find
+const findArr = deep.find((elem,i) => elem>0);
+console.log(findArr);
